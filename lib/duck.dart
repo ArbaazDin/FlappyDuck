@@ -5,6 +5,6 @@ class MyDuck extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset('lib/images/duck.png');
+    return Container(height: 60, width: 60, child: Image.asset('lib/images/duck.png'));
   }
 }
